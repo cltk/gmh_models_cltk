@@ -14,8 +14,10 @@ def read_pickle(filename: str):
 
 
 def test_token_to_pos():
-    token_to_lemma = read_pickle("tokens_pos.pickle")
-    print(token_to_lemma["wâr"])
+    token_to_pos = read_pickle("tokens_pos.pickle")
+    print(token_to_pos["wâr"])
+    tnt_tagger = read_pickle("tnt.pickle")
+    print(tnt_tagger.tag("uns ist in alten mæren wunders vil geseit".split(" ")))
 
 
 if __name__ == "__main__":
