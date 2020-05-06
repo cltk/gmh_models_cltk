@@ -1,4 +1,4 @@
-# middle_high_german_models_cltk
+# gmh_models_cltk
 
 Pre-compiled taggers and tokenizers made with NLTK + CLTK data.
 
